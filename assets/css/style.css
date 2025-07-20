@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: Arial, sans-serif;
+}
+input,
+textarea,
+select,
+button {
+    font-size: inherit;
+    font-family: inherit;
+}
+.container {
+    width: 800px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+.header__line {
+    margin: 70px 0;
+    background: black;
+    height: 3px;
+    width: calc(100% - 100px);
+}
+.header__name {
+    font-size: 4rem;
+    font-weight: 500;
+}
+.section__heading {
+    padding-top: 35px;
+    font-weight: 600;
+    font-size: 1.7rem;
+    color: #2f9e44;
+}
+.section__desc {
+    padding-top: 10px;
+    font-weight: 500;
+    line-height: 1.4;
+    font-size: 1.8rem;
+}
+.section__experience {
+    padding-top: 30px;
+    color: #2d7dc7;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.section__time {
+    padding-top: 10px;
+    font-weight: 500;
+    line-height: 1.4;
+    font-size: 1.8rem;
+}
+.skill__desc {
+    width: 651px;
+}
+.achievements {
+    padding-top: 5px;
+    margin-left: 20px;
+}
+.achievement-item {
+    list-style: circle;
+    padding-top: 5px;
+}
